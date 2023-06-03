@@ -1,0 +1,14 @@
+.messages {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .message {
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  

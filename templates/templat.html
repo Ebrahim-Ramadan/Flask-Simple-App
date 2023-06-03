@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Example</title>
+  </head>
+  <body>
+    <h1>Submit Form</h1>
+    <form method="POST" action="/submit">
+      <label for="month">Month:</label>
+      <input type="text" id="month" name="month" required /><br /><br />
+
+      <label for="name">name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+
+      <label for="income">income:</label>
+      <input
+        type="number"
+        min="500"
+        step="500"
+        id="income"
+        name="income"
+        required
+      /><br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+    {% if success%}
+    <p class="a7a">{{success}} at {{creation_time}}</p>
+    {% endif %}
+  </body>
+</html>

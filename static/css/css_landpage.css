@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+img#grand01{
+    width: 370px;
+    position: absolute;
+    left: 100px;
+}
+img#front01, #back01 {
+    width: 450px;
+    border-radius: 10px;
+}
+img#front01{
+    position: relative;
+    top: 70px;
+    left: 250px;
+}
+img#back01{
+    position: relative;
+    top: 350px;
+    right: 100px;
+}
+.picos button {
+    position: relative;
+    top: 244px;
+    left: 945px;
+}
+.landTEXT{
+    position: absolute;
+    top: 200px;
+    left: 930px;
+}
+svg text{
+    font-size: 90px;
+}
+
+.landTEXT img{
+    width: 400px;
+}
